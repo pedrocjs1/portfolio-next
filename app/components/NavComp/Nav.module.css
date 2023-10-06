@@ -1,0 +1,140 @@
+.navbarArea {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  border-bottom: 1px solid #000;
+  z-index: 999;
+}
+
+.main-content {
+  margin-top: 80px; /* la altura del navbar + un margen adicional */
+}
+
+.siteNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a.siteLogo {
+  font-size: 26px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+}
+.siteNavbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.siteNavbar ul li a {
+  color: #fff;
+  padding: 20px;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.siteNavbar ul li a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+/* navbar regular css end */
+
+/* nav-toggler css start */
+.navToggler {
+  border: none;
+  padding: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  height: 39px;
+  display: none;
+}
+.navToggler span,
+.navToggler span:before,
+.navToggler span:after {
+  width: 28px;
+  height: 3px;
+  background-color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+.navToggler span:before {
+  content: "";
+  transform: translateY(-9px);
+}
+.navToggler span:after {
+  content: "";
+  transform: translateY(6px);
+}
+.navToggler.togglerOpen span {
+  background-color: transparent;
+}
+.navToggler.togglerOpen span:before {
+  transform: translateY(0px) rotate(45deg);
+}
+.navToggler.togglerOpen span:after {
+  transform: translateY(-2px) rotate(-45deg);
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  border-color: #17d0d5;
+  color: #fff;
+  background-color: #17d0d5;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 720px;
+  }
+  /* navbar css for mobile start */
+  .navToggler {
+    display: block;
+  }
+  .siteNavbar {
+    min-height: 60px;
+  }
+  .siteNavbar ul {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 60px);
+    left: 0;
+    top: 60px;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #444;
+    background-color: rgba(0, 0, 0, 0.75);
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+  }
+  .siteNavbar ul li {
+    width: 100%;
+    text-align: center;
+  }
+  .siteNavbar ul li a {
+    padding: 25px;
+  }
+  .siteNavbar ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.295);
+  }
+  .siteNavbar ul.open {
+    max-height: 100vh;
+    overflow: visible;
+  }
+  .intro-area h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+  /* navbar css for mobile end */
+}

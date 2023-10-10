@@ -1,0 +1,46 @@
+#footer {
+  padding: 25px 0;
+  text-align: center;
+}
+
+#footer span.copyright {
+  text-transform: uppercase;
+  text-transform: none;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 40px;
+  font-size: 1.3rem;
+}
+
+#footer ul.quicklinks {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  text-transform: none;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 40px;
+}
+
+ul.socialButtons {
+  margin-bottom: 0;
+  padding: 0 !important;
+}
+
+ul.socialButtons li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  outline: 0;
+  color: #fff;
+  background-color: #222;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+ul.socialButtons li a:hover,
+ul.socialButtons li a:focus,
+ul.socialButtons li a:active {
+  background-color: #1ee2e7;
+}

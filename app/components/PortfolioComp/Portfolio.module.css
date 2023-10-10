@@ -1,0 +1,232 @@
+.cardImgOverlay p {
+  font-size: 0.7rem;
+}
+
+.cardContainer {
+  position: relative;
+  width: 100%;
+  max-width: 25rem !important;
+  height: 100%;
+  min-height: 15rem;
+  padding: 0;
+
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+}
+
+.cardContainer:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.712);
+  border-radius: 5px;
+}
+
+.cardTextH {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  transform: translateY(19%);
+  z-index: 1;
+}
+
+.cardContainer:hover .cardTextH {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition: visibility 0s, opacity 0.5s ease, transform 0.5s ease;
+}
+
+.cardContainerPetShop {
+  position: relative;
+  width: 100%;
+  max-width: 25rem !important;
+  height: 100%;
+  min-height: 15rem;
+  padding: 0;
+
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+}
+
+.cardContainerPetShop:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.712);
+  border-radius: 5px;
+}
+
+.cardContainerPetShop:hover .cardTextH {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition: visibility 0s, opacity 0.5s ease, transform 0.5s ease;
+}
+
+.cardContainerTech {
+  position: relative;
+  width: 100%;
+  max-width: 25rem !important;
+  height: 100%;
+  min-height: 15rem;
+  padding: 0;
+
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+}
+
+.cardContainerTech:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.712);
+  border-radius: 5px;
+}
+
+.cardContainerTech:hover .cardTextH {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition: visibility 0s, opacity 0.5s ease, transform 0.5s ease;
+}
+
+.cardContainerAmazing {
+  position: relative;
+  width: 100%;
+  max-width: 25rem !important;
+  height: 100%;
+  min-height: 15rem;
+  padding: 0;
+
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+}
+
+.cardContainerAmazing:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.712);
+  border-radius: 5px;
+}
+
+.cardContainerAmazing:hover .cardTextH {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition: visibility 0s, opacity 0.5s ease, transform 0.5s ease;
+}
+
+.cardContainerSnake {
+  position: relative;
+  width: 100%;
+  max-width: 25rem !important;
+  height: 100%;
+  min-height: 15rem;
+  padding: 0;
+
+  background-position: center top;
+  background-repeat: none;
+  background-size: cover;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+}
+
+.cardContainerSnake:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.712);
+  border-radius: 5px;
+}
+
+.cardContainerSnake:hover .cardTextH {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition: visibility 0s, opacity 0.5s ease, transform 0.5s ease;
+}
+
+.cardContainerLawer {
+  position: relative;
+  width: 100%;
+  max-width: 25rem !important;
+  height: 100%;
+  min-height: 15rem;
+  padding: 0;
+  background-position: center top;
+  background-repeat: none;
+  background-size: cover;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+}
+
+.cardContainerLawer:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.712);
+  border-radius: 5px;
+}
+
+.cardContainerLawer:hover .cardTextH {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition: visibility 0s, opacity 0.5s ease, transform 0.5s ease;
+}
+
+.cardImgOverlay {
+  padding: 0.5rem !important;
+  min-height: 100%;
+}
+.cardTitle {
+  margin-bottom: 0 !important;
+}
+.borderStyle {
+  background-color: #033a80 !important;
+  padding: 0.3rem !important;
+  border-radius: 3px !important;
+}

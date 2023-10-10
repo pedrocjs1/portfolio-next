@@ -22,58 +22,56 @@ SwiperCore.use([Navigation, Pagination, Autoplay]);
 
 export default function Carousel() {
   return (
-    <section>
-      <div>
-        <div className="row">
-          <div className="col-lg-12 text-center">
-            <h2>Tecnologias</h2>
-            <h3 className="text-muted">Tecnologias que utilizo</h3>
-          </div>
+    <section className="mt-5">
+      <div className="row">
+        <div className="col-lg-12 text-center">
+          <h2>Tecnologias</h2>
+          <h3 className="text-muted mb-5">Tecnologias que utilizo</h3>
         </div>
-        <div className="d-flex justify-content-center flex-wrap gap-3 srow text-center">
-          <Swiper
-            spaceBetween={0}
-            slidesPerView={1}
-            navigation
-            pagination={{ clickable: true }}
-            autoplay={{ delay: 3000 }}
-            loop={true}
-          >
-            <SwiperSlide>
-              <FaJava className="mb-5" style={{ fontSize: "10rem" }} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <SiSpring className="mb-5" style={{ fontSize: "10rem" }} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <SiHibernate className="mb-5" style={{ fontSize: "10rem" }} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <SiGradle className="mb-5" style={{ fontSize: "10rem" }} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <SiPostgresql className="mb-5" style={{ fontSize: "10rem" }} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <SiJavascript className="mb-5" style={{ fontSize: "10rem" }} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <FaVuejs className="mb-5" style={{ fontSize: "10rem" }} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <FaReact className="mb-5" style={{ fontSize: "10rem" }} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <AiFillHtml5 className="mb-5" style={{ fontSize: "10rem" }} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <FaCss3Alt className="mb-5" style={{ fontSize: "10rem" }} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <FaBootstrap className="mb-5" style={{ fontSize: "10rem" }} />
-            </SwiperSlide>
-          </Swiper>
-        </div>
+      </div>
+      <div className="d-flex justify-content-center flex-wrap gap-3 p-4c srow text-center">
+        <Swiper
+          spaceBetween={0}
+          slidesPerView={1}
+          navigation
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 3000 }}
+          loop={true}
+        >
+          <SwiperSlide>
+            <FaJava className="mb-5" style={{ fontSize: "10rem" }} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SiSpring className="mb-5" style={{ fontSize: "10rem" }} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SiHibernate className="mb-5" style={{ fontSize: "10rem" }} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SiGradle className="mb-5" style={{ fontSize: "10rem" }} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SiPostgresql className="mb-5" style={{ fontSize: "10rem" }} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SiJavascript className="mb-5" style={{ fontSize: "10rem" }} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <FaVuejs className="mb-5" style={{ fontSize: "10rem" }} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <FaReact className="mb-5" style={{ fontSize: "10rem" }} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <AiFillHtml5 className="mb-5" style={{ fontSize: "10rem" }} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <FaCss3Alt className="mb-5" style={{ fontSize: "10rem" }} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <FaBootstrap className="mb-5" style={{ fontSize: "10rem" }} />
+          </SwiperSlide>
+        </Swiper>
       </div>
     </section>
   );

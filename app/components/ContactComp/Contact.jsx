@@ -51,7 +51,7 @@ export default function Contact() {
     <section id={`${style.contact}`} className="p-5">
       <div>
         <div className="row">
-          <div className="col-lg-12 text-center">
+          <div className="col-lg-12 text-center mb-5">
             <h2 className={`${style.sectionHeading} text-black`}>Contact Us</h2>
             <h3 className={style.contactSubtitle}>Contactar conmigo</h3>
           </div>

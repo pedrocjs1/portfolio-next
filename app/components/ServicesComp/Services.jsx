@@ -3,10 +3,10 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <section>
+    <section id={style.service}>
       <div>
         <div className="row">
-          <div className="col-lg-12 text-center">
+          <div className="col-lg-12 text-center mb-5">
             <h2>Servicios</h2>
             <h3 className={style.textMuted}>Mis Servicios</h3>
           </div>

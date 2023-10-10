@@ -4,10 +4,10 @@ import { DiCode } from "react-icons/di";
 import Image from "next/image";
 export default function Portfolio() {
   return (
-    <section className="bg-light-gray">
+    <section className="bg-light-gray mt-5">
       <div>
         <div className="row">
-          <div className="col-lg-12 text-center">
+          <div className="col-lg-12 text-center mb-5">
             <h2>Portfolio</h2>
             <h3 className="text-muted">Algunos de mis projectos.</h3>
           </div>
@@ -16,8 +16,8 @@ export default function Portfolio() {
           <div className={`card ${style.cardContainer} text-white`}>
             <Image
               src="/PortfolioImg/homebanking.png"
-              width="400"
-              height="240"
+              layout="fill"
+              objectFit="cover"
               alt="Image App HomeBanking"
             />
             <div
@@ -45,8 +45,8 @@ export default function Portfolio() {
           <div className={`card ${style.cardContainerPetShop} text-white`}>
             <Image
               src="/PortfolioImg/huellitas-portfolio.png"
-              width="400"
-              height="240"
+              layout="fill"
+              objectFit="cover"
               alt="Image App PetShop"
             />
             <div

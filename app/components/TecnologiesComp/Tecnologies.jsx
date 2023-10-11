@@ -17,6 +17,7 @@ import { AiFillHtml5 } from "react-icons/ai";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 import { SiPostgresql } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 
@@ -26,7 +27,9 @@ export default function Carousel() {
       <div className="row">
         <div className="col-lg-12 text-center">
           <h2>Tecnologias</h2>
-          <h3 className="text-muted mb-5">Tecnologias que utilizo</h3>
+          <h3 className="text-muted mb-5 sub-title-globals">
+            Tecnologias que utilizo
+          </h3>
         </div>
       </div>
       <div className="d-flex justify-content-center flex-wrap gap-3 p-4c srow text-center">
@@ -70,6 +73,9 @@ export default function Carousel() {
           </SwiperSlide>
           <SwiperSlide>
             <FaBootstrap className="mb-5" style={{ fontSize: "10rem" }} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <TbBrandNextjs className="mb-5" style={{ fontSize: "10rem" }} />
           </SwiperSlide>
         </Swiper>
       </div>

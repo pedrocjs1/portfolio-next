@@ -6,10 +6,12 @@ import { HiMail } from "react-icons/hi";
 export default function About() {
   return (
     <section id={style.about}>
-      <div className="row">
+      <div id="about" className="row">
         <div className="col-lg-12 text-center mt-5">
           <h2 className={style.sectionHeading}>Sobre Mi</h2>
-          <h3 className={`${style.sectionSubheading} ${style.textMuted}`}>
+          <h3
+            className={`${style.sectionSubheading} ${style.textMuted} sub-title-globals`}
+          >
             Introduction
           </h3>
         </div>

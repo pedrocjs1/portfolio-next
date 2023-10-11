@@ -48,12 +48,17 @@ export default function Contact() {
   };
 
   return (
-    <section id={`${style.contact}`} className="p-5">
-      <div>
+    <section
+      id="contact"
+      className="d-flex justify-content-center align-items-center"
+    >
+      <div id={`${style.contact}`} className="p-5">
         <div className="row">
           <div className="col-lg-12 text-center mb-5">
             <h2 className={`${style.sectionHeading} text-black`}>Contact Us</h2>
-            <h3 className={style.contactSubtitle}>Contactar conmigo</h3>
+            <h3 className={`${style.contactSubtitle} sub-title-globals`}>
+              Contactar conmigo
+            </h3>
           </div>
         </div>
         <div className="row">

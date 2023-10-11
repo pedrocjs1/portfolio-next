@@ -4,20 +4,22 @@ import { DiCode } from "react-icons/di";
 import Image from "next/image";
 export default function Portfolio() {
   return (
-    <section className="bg-light-gray mt-5">
+    <section id="portfolio" className="bg-light-gray mt-5">
       <div>
         <div className="row">
-          <div className="col-lg-12 text-center mb-5">
+          <div className="col-lg-12 text-center">
             <h2>Portfolio</h2>
-            <h3 className="text-muted">Algunos de mis projectos.</h3>
+            <h3 className="text-muted sub-title-globals">
+              Algunos de mis projectos.
+            </h3>
           </div>
         </div>
-        <div className="row d-flex gap-3 flex-wrap justify-content-center align-items-center">
+        <div className="row d-flex gap-3 flex-wrap justify-content-center align-items-center p-5">
           <div className={`card ${style.cardContainer} text-white`}>
             <Image
               src="/PortfolioImg/homebanking.png"
-              layout="fill"
-              objectFit="cover"
+              width={320}
+              height={240}
               alt="Image App HomeBanking"
             />
             <div
@@ -45,8 +47,8 @@ export default function Portfolio() {
           <div className={`card ${style.cardContainerPetShop} text-white`}>
             <Image
               src="/PortfolioImg/huellitas-portfolio.png"
-              layout="fill"
-              objectFit="cover"
+              width={320}
+              height={240}
               alt="Image App PetShop"
             />
             <div
@@ -69,8 +71,8 @@ export default function Portfolio() {
           <div className={`card ${style.cardContainerLawer} text-white`}>
             <Image
               src="/PortfolioImg/lawers.png"
-              width="400"
-              height="240"
+              width={320}
+              height={240}
               alt="Image App Lawer"
             />
             <div
@@ -97,8 +99,8 @@ export default function Portfolio() {
           <div className={`card ${style.cardContainerTech} text-white`}>
             <Image
               src="/PortfolioImg/techtitans.png"
-              width="400"
-              height="240"
+              width={320}
+              height={240}
               alt="Image App Tech"
             />
             <div
@@ -123,8 +125,8 @@ export default function Portfolio() {
           <div className={`card ${style.cardContainerAmazing} text-white`}>
             <Image
               src="/PortfolioImg/amazing.png"
-              width="400"
-              height="240"
+              width={320}
+              height={240}
               alt="Image App amazing events"
             />
             <div
@@ -160,8 +162,8 @@ export default function Portfolio() {
           <div className={`card ${style.cardContainerSnake} text-white`}>
             <Image
               src="/PortfolioImg/snake.jpeg"
-              width="400"
-              height="240"
+              width={320}
+              height={240}
               alt="Image Game Snake"
             />
             <div

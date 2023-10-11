@@ -4,11 +4,13 @@ import Image from "next/image";
 export default function Services() {
   return (
     <section id={style.service}>
-      <div>
+      <div id="services">
         <div className="row">
           <div className="col-lg-12 text-center mb-5">
             <h2>Servicios</h2>
-            <h3 className={style.textMuted}>Mis Servicios</h3>
+            <h3 className={`${style.textMuted} sub-title-globals`}>
+              Mis Servicios
+            </h3>
           </div>
         </div>
         <div className="d-flex justify-content-center flex-wrap gap-3 srow text-center">

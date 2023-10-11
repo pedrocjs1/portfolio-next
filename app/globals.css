@@ -4,6 +4,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -50,11 +51,20 @@ a.active {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
+}
+
+.sub-title-globals {
+  font-family: "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 35px;
+  text-transform: none;
+  color: #777;
 }

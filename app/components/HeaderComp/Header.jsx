@@ -2,7 +2,7 @@ import style from "./Header.module.css";
 
 export default function Header() {
   return (
-    <header id="inicio">
+    <section id="inicio">
       <div className={style.backgroundImage}>
         <div className={style.introText}>
           <div className={style.introLeadIn}>Hola, Soy Pedro</div>
@@ -17,6 +17,6 @@ export default function Header() {
           </a>
         </div>
       </div>
-    </header>
+    </section>
   );
 }

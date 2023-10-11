@@ -15,7 +15,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className={style.navbarArea}>
+    <header className={style.navbarArea}>
       <div className={style.container}>
         <nav className={style.siteNavbar}>
           <Link href="#inicio" className={style.siteLogo}>
@@ -36,6 +36,9 @@ export default function Navbar() {
               <Link href="#portfolio">Portafolio</Link>
             </li>
             <li>
+              <Link href="/contratar">Contractar</Link>
+            </li>
+            <li>
               <Link href="#contact">Contacto</Link>
             </li>
           </ul>
@@ -50,6 +53,6 @@ export default function Navbar() {
           </button>
         </nav>
       </div>
-    </div>
+    </header>
   );
 }

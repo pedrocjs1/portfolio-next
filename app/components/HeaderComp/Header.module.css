@@ -11,12 +11,12 @@
   -o-background-size: cover;
 }
 
-header .introText {
+section .introText {
   padding-top: 100px;
   padding-bottom: 50px;
 }
 
-header .introText .introLeadIn {
+section .introText .introLeadIn {
   margin-bottom: 10px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 22px;
@@ -26,7 +26,7 @@ header .introText .introLeadIn {
     0.5px 0.5px 0 #000;
 }
 
-header .introText .introHeading {
+section .introText .introHeading {
   margin-bottom: 10px;
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -45,12 +45,12 @@ header .introText .introHeading {
 }
 
 @media (min-width: 768px) {
-  header .introText {
+  section .introText {
     padding-top: 200px;
     padding-bottom: 150px;
   }
 
-  header .introText .introLeadIn {
+  section .introText .introLeadIn {
     margin-bottom: 25px;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 40px;
@@ -58,7 +58,7 @@ header .introText .introHeading {
     line-height: 40px;
   }
 
-  header .introText .introHeading {
+  section .introText .introHeading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;

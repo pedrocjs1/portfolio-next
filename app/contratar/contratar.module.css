@@ -1,3 +1,8 @@
 .bodyc {
   margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  color: #000000;
+  background-color: #fffffff5;
+  gap: 10rem;
 }
